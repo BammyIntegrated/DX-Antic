@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Varta', 'Merriweather', sans-serif;
+}
+
+/*About us Section Starts Here  */
+.aboutus__section{
+    border: 3px solid #000000;
+    background: #F3EEE8;
+    display: flex;
+    flex-direction: row;
+    height: 468px;
+
+}
+.aboutus__services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 50%;
+   margin: 0 auto;
+}
+.aboutus__services h3{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Merriweather';
+    font-style: normal;
+    color: #706458;
+    line-height: 50px;
+
+}
+
+.aboutus__contents{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+/*About us Section Ends Here  */
+
+/* Footer Section Starts Here */
+.footer__section{
+    width: 80%;
+    margin:0 auto ;
+    border: 3px solid tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__section h5{
+    font-family: 'Merriweather' ;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.footer__section p{
+    font-family: 'Varta';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(112, 100, 88, 0.9);
+    margin: 10px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #A06056;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+.btn{
+    /* border: 2px solid #000000; */
+    padding: 10px 15px;
+    background: #000000;
+    color: white;
+}
+
+.btn:hover{
+    background: silver;
+    color: #000000;
+    border: transparent;
+}
+
+/* Footer Section Ends Here */
